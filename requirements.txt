@@ -1,0 +1,4 @@
+aerosandbox
+matplotlib
+numpy
+scipy
