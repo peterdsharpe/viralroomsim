@@ -159,4 +159,9 @@ class RoomSimulation:
 
 if __name__ == '__main__':
     sim = RoomSimulation()
-    sim.plot_flowfield()
+
+    sim.plot_flowfield(show=False)
+    p.show_plot("Flow in a Toroidal Room", "$x$ [m]", "$y$ [m]",
+                savefig=["figures/case_1.svg",
+                         "figures/case_1.png"]
+                )

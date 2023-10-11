@@ -225,5 +225,8 @@ if __name__ == '__main__':
             ]),
         ]
     )
-    # sim.plot_debug()
-    sim.plot_flowfield()
+    sim.plot_flowfield(show=False)
+    p.show_plot("Flow in a Room with Open Windows", "$x$ [m]", "$y$ [m]",
+                savefig=["figures/case_4.svg",
+                         "figures/case_4.png"]
+                )

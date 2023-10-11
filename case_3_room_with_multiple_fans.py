@@ -216,4 +216,8 @@ if __name__ == '__main__':
             [4, 4],
         ])
     )
-    sim.plot_flowfield()
+    sim.plot_flowfield(show=False)
+    p.show_plot("Flow in a Room with Multiple Fans", "$x$ [m]", "$y$ [m]",
+                savefig=["figures/case_3.svg",
+                         "figures/case_3.png"]
+                )
