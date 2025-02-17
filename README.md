@@ -20,6 +20,6 @@ Part of an old experiment for using potential flows as fast approximators for fl
 
 ![room-with-fans](./figures/case_3.png)
 
-#### Room with Open Windows
+### Room with Open Windows
 
 ![room-with-windows](./figures/case_4.png)
